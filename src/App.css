@@ -1,38 +1,58 @@
-.App {
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  
+  height: 93vh;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  
+}
+
+.head-container{
+
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.app.js_chat_header{
+
+  width: auto;
+  padding: 20px;
+}
+
+.app.js_message_header{
+
+  width: 50%;
+
+}
+
+
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chat-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: calc(100% - 40px); /* Subtract header height */
 }
 
-.App-link {
-  color: #61dafb;
+/* Set styles for chat sidebar */
+.chat-sidebar {
+  flex: 1;
+  background-color: #00491c;
+  color: #fff;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Set styles for message display */
+.message-display {
+  flex: 3;
+  background-color: #ecf0f1;
+  padding: 10px;
+  overflow-y: auto;
 }

@@ -1,0 +1,56 @@
+/* MessageDisplay.css */
+.message-display {
+    flex: 3;
+    background-color: #ecf0f1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messages {
+    flex: 1;
+  }
+  
+  .message {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+  
+  .write-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plus-button {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .plus-button i {
+    font-size: 20px;
+    color: #3498db;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  

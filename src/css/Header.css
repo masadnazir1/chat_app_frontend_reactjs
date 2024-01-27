@@ -1,0 +1,84 @@
+/* Header.css */
+.header {
+    background-color: #004b7c;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .search-bar-header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    
+    height: 20px;
+  }
+    
+
+
+
+
+
+   
+
+  .search-bar input {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc;
+    height: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-button {
+    background-color: #ff00ea;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 1px;
+  }
+  
+  .more-options {
+    position: relative;
+    
+  }
+  
+  .more-options button {
+    background-color: #ff00ea;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 1px;
+  }
+  
+  .more-options .dropdown-menu {
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .more-options:hover .dropdown-menu {
+    display: block;
+  }
+  

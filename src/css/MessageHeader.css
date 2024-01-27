@@ -1,0 +1,103 @@
+/* MessageHeader.css */
+.message-header {
+    background-color: #00584a;
+    color: #fff;
+    padding: 20px;
+    margin-right: -9px;
+    margin-left: -9px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+   
+  }
+  /* MessageHeader.css */
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-info {
+  display: flex;
+  align-items: center;
+}
+
+.chat-info img {
+  width: 50px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.search-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.dots-menu {
+  cursor: pointer;
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-bottom: 3px;
+}
+
+.menu-popup {
+  position: absolute;
+  top: 90px;
+  right: 30px;
+  background-color: #003f31;
+  padding: 15px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.menu-popup div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.menu-popup div:hover {
+  background-color: #ecf0f1;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+.chat-hed-icons{
+
+  background-color: #29f5e4;
+  width: 10px;
+  height: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+  
+}
+
+
+.chat-hed-icons:hover{
+
+  background-color: #007396;
+
+
+}
